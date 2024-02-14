@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<!--onkeypressEnter="verificar()"-->
+<body>
+    <h1>Verificador de Idade</h1>
+    <div class="container">
+       <form action=""> 
+            <div class="caixaLinha">
+                <p>Data de nascimento:</p>
+                <input type="date" name="Ano de nascimento" id="data"  required>
+            </div>
+            <div class="caixaLinha">
+                <p>Sexo:</p>
+                
+                <input type="radio" name="sexo" id="masculino" class="sexo" required><p>Masculino</p>
+                <input type="radio" name="sexo" id="feminino" class="sexo" required><p>Feminino</p>
+                
+            </div>
+            <input type="submit"  value="Enviar"  >
+        </form>
+        <h2 id="titulo"></h2>
+        <img src="imagens/criancaFeminino.jpg" id="imagem"></img>
+    </div>
+    
+</body>
+</html>
